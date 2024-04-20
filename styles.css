@@ -1,0 +1,147 @@
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+
+body {
+    background-color: #fafad2;
+    font-family: "微軟黑正體", "Microsoft JhengHei", sans-serif;
+    
+}
+
+img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 80%; /*將表格設定為網頁寬度的80%*/
+    margin: 0 auto; /* 將表格置中 */
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,td {
+    font-size: 16px;
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  caption {
+    font-size: 14px; /*設置表格大小文字為14像素*/
+  }
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .center {
+    width: 80%;
+    table-layout: auto;
+    margin-left:  auto;
+    margin-right: auto;
+  }
+
+  img {
+    width: 400px; /* 設定寬度為 400 像素 */
+    height: auto; /* 高度自動調整，保持圖片比例 */
+  }
+  
+  .content-info-logo {
+    width: 300px;
+    text-align: center;
+    color:#ffffff;
+    margin: 5px auto;
+    font-size: 25px;
+    background-color: #a56cda; /* 設定背景顏色 */
+    padding: 5px; /* 設定內邊距 */
+    border: 0px solid #ccc; /* 設定邊框 */
+    border-radius: 10px; /* 設定邊框圓角 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+  }
+
+  .content-info {
+    width: 600px;
+    /*text-align: center;*/
+    color:#000000;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #fffafa; /* 設定背景顏色 */
+    padding: 5px; /* 設定內邊距 */
+    border: 0px solid #ccc; /* 設定邊框 */
+    border-radius: 3px; /* 設定邊框圓角 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+  }
+
+  .contact-info-logo {
+    width: 300px;
+    text-align: center;
+    color:#ffffff;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color: #a56cda; /* 設定背景顏色 */
+    padding: 5px; /* 設定內邊距 */
+    border: 0px solid #ccc; /* 設定邊框 */
+    border-radius: 10px; /* 設定邊框圓角 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+  }
+
+  .contact-info {
+    width: 1000px;
+    color:#000000;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #fffafa; /* 設定背景顏色 */
+    padding: 5px; /* 設定內邊距 */
+    border: 0px solid #ccc; /* 設定邊框 */
+    border-radius: 3px; /* 設定邊框圓角 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+  }
+
+  .contact-info .center-text {
+    text-align: center !important;
+    font-size: 15px; /* 如果需要可以設置 .center-text 中的文字大小 */
+}
+
+.contact-info_v2 {
+    width: 800px;
+    text-align: center;
+    height: 50px;
+    color:#000000;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #fffafa; /* 設定背景顏色 */
+    padding: 25px; /* 設定內邊距 */
+    border: 0px solid #ccc; /* 設定邊框 */
+    border-radius: 25px; /* 設定邊框圓角 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 設定陰影效果 */
+  }
